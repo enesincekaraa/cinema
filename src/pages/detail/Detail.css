@@ -1,0 +1,19 @@
+.detail .detail__video-container {
+  margin-top: 90px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+.detail iframe {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.detail .detail__description-container {
+  margin-top: 67px;
+}

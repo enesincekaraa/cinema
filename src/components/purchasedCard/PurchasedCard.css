@@ -1,0 +1,8 @@
+.purchased-card {
+  border-bottom: 1px solid #333;
+  padding-bottom: 50px;
+}
+.purchased-card__img {
+  width: 140px;
+  height: 200px;
+}

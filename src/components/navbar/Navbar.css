@@ -1,0 +1,31 @@
+.navbar a:not(:first-child) {
+  margin-left: 10px;
+}
+.navbar__dropdown-title {
+  background: linear-gradient(90deg, #f2c46f 0%, #c6943f 100%);
+  width: 50px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  color: var(--primary-background);
+}
+
+.dropdown-toggle::after {
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu {
+  transform: translate(0px, 64px) !important;
+}
+
+.navbar__link {
+  color: #333333;
+  text-decoration: none;
+}
+.navbar__link--active {
+  color: #383782;
+}

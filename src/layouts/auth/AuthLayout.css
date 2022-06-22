@@ -1,0 +1,12 @@
+.auth-layout {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.auth-layout__container {
+    background: var(--primary-background);
+    height: 772px;
+    width: 770px;
+    padding: 98px 200px 5px 80px;
+}
